@@ -12,6 +12,5 @@ public class BasePlusEmployee extends CommissionedEmployee
     }
 
     @Override
-    public String paycheck(){ return "The base plus employee earned " +
-                            ( super.getCommissionRate() * super.getGrossSales() + baseSalary ) ; }
+    public float paycheck(){ return super.getCommissionRate() * super.getGrossSales() + baseSalary ; }
 }

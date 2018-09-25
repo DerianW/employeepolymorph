@@ -14,6 +14,9 @@ public class Main
 
         Employee[] emps = {bilboBaggins, jackSparrow, mrIncredible};
 
-        for (Employee e : emps) { System.out.println(e.paycheck()); }
+        for (Employee e : emps)
+        {
+            System.out.println("The " + e.getClass().getSimpleName() + " earned " + e.paycheck());
+        }
     }
 }

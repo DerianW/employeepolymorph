@@ -13,5 +13,5 @@ public class Employee
         this.employeeID = employeeID ;
     }
 
-    public String paycheck(){ return "" ; }
+    public float paycheck(){ return 0 ; }
 }

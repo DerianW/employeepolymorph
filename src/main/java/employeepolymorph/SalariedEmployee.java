@@ -11,5 +11,5 @@ public class SalariedEmployee extends Employee
     }
 
     @Override
-    public String paycheck(){ return "The salaried employee earned " + weeklySalary ; }
+    public float paycheck(){ return weeklySalary ; }
 }

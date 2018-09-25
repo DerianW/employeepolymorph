@@ -17,5 +17,5 @@ public class CommissionedEmployee extends Employee
     public float getCommissionRate(){ return commissionRate ; }
 
     @Override
-    public String paycheck(){ return "The commissioned employee earned: " + commissionRate * grossSales ; }
+    public float paycheck(){ return commissionRate * grossSales ; }
 }
